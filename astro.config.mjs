@@ -5,6 +5,8 @@ import { defineConfig, envField } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://dso-devs.github.io',
+  base: '/api-register',
   output: "server",
   integrations: [
     react(),
